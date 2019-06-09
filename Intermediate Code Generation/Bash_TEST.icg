@@ -1,0 +1,50 @@
+t0 = 2 + 2
+print t0
+a = 10
+t1 = a + 10
+t2 = 5 + a
+t3 = t1 > t2
+t4 = 5 + 110
+t5 = 5 + 125
+t6 = t4 > t5
+t7 = t6 
+t8 = t3 || t7
+ifFalse t8 goto L0
+t9 = 2 + 2
+print t9
+goto L1
+L0:
+t10 = 10 + 10
+t11 = 25 + 15
+t12 = t10 > t11
+t13 = t12 
+ifFalse t13 goto L2
+t14 = 7 + 7
+print t14
+goto L3
+L2:
+t15 = 4 * 8
+print t15
+L3:
+L1:
+i = 1
+L5:
+t16 = i <= 10
+ifFalse t16 goto L6
+t17 = 2 * 7
+print t17
+t18 = i + 2
+i = t18
+goto L5
+L6:
+L7:
+t19 = 5 + 10
+t20 = 5 + 15
+t21 = t19 > t20
+t22 = t21 
+ifFalse t22 goto L8
+t23 = 2 + 2
+print t23
+goto L7
+L8:
+b = 5

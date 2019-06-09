@@ -1,0 +1,9 @@
+#!/bin/bash
+# NOTE : DON'T LEAVE ANY EXTRA BLANK LINE BEFORE <<EOF>>
+# DON'T COMMENT AFTER YOUR CODE. UGLY SEGFAULT YOU'LL GET.
+#while (( $a > $b))
+#do echo $a
+#done
+if (($a > $b))
+then echo $a
+fi

@@ -1,0 +1,36 @@
+t0 = 4
+print t0
+a = 10
+t1 = 20
+t2 = 15
+t3 = True
+t4 = 115
+t5 = 130
+t6 = False
+t8 = True
+t9 = 4
+print t9
+goto L1
+L0:
+t10 = 20
+t11 = 40
+t12 = False
+L2:
+t15 = 32
+print t15
+L3:
+L1:
+i = 1
+L5:
+t16 = True
+t17 = 14
+print t17
+t18 = 3
+goto L5
+L6:
+L7:
+t19 = 15
+t20 = 20
+t21 = False
+L8:
+b = 5
